@@ -1,0 +1,37 @@
+nav ul {
+    /* flex will display list widely */
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  
+    /*padding for border and content */
+    padding: 12px 0px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  h2 {
+    font-weight: 700;
+    color:rgb(0, 98, 255);
+    font-weight: bold;
+   text-align: center;
+
+  }
+  .content {
+    display: none;
+    text-align: center;
+    margin: 20px;
+  }
+  :target {
+    display: block;
+  }
+  #projects{
+    text-align: left;
+  }
+  .content ol li{
+    display: flex;
+    text-align: center;
+  }
+ 
